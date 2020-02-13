@@ -28,6 +28,8 @@ public class OI {
   private XboxController driverController = new XboxController(RobotMap.DRIVER_CONTROLLER);
 
   public double GetDriverRawAxis(int axis){
+    //IF IT RETURNS A RETURNS A PRIVATE VARIABLE IT'S A GETTER
+
     //E.g. somewhere in the code wants current left-stick value
     return driverController.getRawAxis(axis);
     //A way of accessing a specific axis at any given time.

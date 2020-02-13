@@ -8,7 +8,7 @@
 package frc.robot;
 
 import edu.wpi.first.wpilibj.RobotBase;
-
+//EP 3; MOVE ROBOT FOR CERTAIN AMOUNT OF TIME
 /**
  * Do NOT add any static variables to this class, or any initialization at all.
  * Unless you know what you are doing, do not modify this file except to
@@ -16,6 +16,7 @@ import edu.wpi.first.wpilibj.RobotBase;
  */
 public final class Main {
   private Main() {
+  //ONLY MAIN CAN MAKE INSTANCE OF MAIN
   }
 
   /**
@@ -27,5 +28,6 @@ public final class Main {
   //The code all starts from this function
   public static void main(String... args) {
     RobotBase.startRobot(Robot::new);
+    //CLASS   METHOD     CREATE ISNTANE;
   }
 }
